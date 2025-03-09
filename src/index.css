@@ -700,7 +700,7 @@ footer {
 
     /* Footer */
 
-    footer {
+    .footer-container {
         gap: 55px;
         height: 80px;
         justify-content: center;
@@ -711,7 +711,7 @@ footer {
         display: none;
     }
 
-    footer > a > svg {
+    .footer-container > a > svg {
         width: 2em;
         height: 2em; 
     }
