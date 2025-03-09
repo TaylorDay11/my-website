@@ -48,38 +48,38 @@ export default function Header() {
 
             <motion.div initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
-                transition={{ duration: .2, ease: "linear" }}
+                transition={{ duration: .2, delay:.5, ease: "linear" }}
                 className="red rainbow">
             </motion.div>
              <motion.div initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
-                transition={{ duration: .2, delay: .1, ease: "linear" }}
+                transition={{ duration: .2, delay: .6, ease: "linear" }}
                 className="orange rainbow">
             </motion.div>
             <motion.div initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
-                transition={{ duration: .2, delay: .2, ease: "linear" }} 
+                transition={{ duration: .2, delay: .7, ease: "linear" }} 
                 className="yellow rainbow">
             </motion.div>
             <motion.div initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
-                transition={{ duration: .2, delay: .3, ease: "linear" }} 
+                transition={{ duration: .2, delay: .8, ease: "linear" }} 
                 className="beige rainbow">
             </motion.div>
             <motion.div initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
-                transition={{ duration: .2, delay: .4, ease: "linear" }}  
+                transition={{ duration: .2, delay: .9, ease: "linear" }}  
                 className="light-green rainbow">
             </motion.div>
             <motion.div 
                 initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
-                transition={{ duration: .2, delay: .5, ease: "linear" }} 
+                transition={{ duration: .2, delay: 1.0, ease: "linear" }} 
                 className="turquoise rainbow">
             </motion.div>
             <motion.div initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
-                transition={{ duration: .2, delay: .6, ease: "linear" }} 
+                transition={{ duration: .2, delay: 1.1, ease: "linear" }} 
                 className="blue rainbow"> 
             </motion.div>
         </header>
