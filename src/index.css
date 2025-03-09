@@ -267,6 +267,7 @@ footer > a > svg {
 .border-yellow:hover {
     border: 3px #EE9B06 solid;
     transition: border 0.5s ease-in-out;
+    color: #D9D9D9;
 }
 
 .border-beige:hover {
