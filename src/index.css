@@ -468,22 +468,6 @@ footer > a > svg {
     color: #fff; 
 }
 
-.video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-  }
-  
-  .video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    border: none;
-  }
-
 .arrow-link > svg {
     height: 1.2em;
     width: 1.2em;
@@ -514,7 +498,7 @@ footer > a > svg {
 .certificates {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 20px;
 }
 
 /* Not Found Page */
