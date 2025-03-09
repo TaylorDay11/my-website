@@ -118,6 +118,8 @@ nav {
     justify-content: flex-end;
     padding: 20px;
     font-size: 1em;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 nav > a {
@@ -174,24 +176,27 @@ img {
 /* Footer */
 
 footer {
+    background-color: #D9D9D9;
+}
+
+.footer-container {
     display: flex;
     color: #20212A;
-    background-color: #D9D9D9;
     padding: 0px 60px;
     align-items: center;
     gap: 35px;
 }
 
-footer > a {
+.footer-container > a {
     color: #20212A;
 }
 
-footer > a:hover {
+.footer-container > a:hover {
     color: #20212aab;
     transition: color 0.3s ease-in-out;
 }
 
-footer > a > svg {
+.footer-container > a > svg {
     height: 1.6em; 
     width: 1.6em;
 }
@@ -518,6 +523,21 @@ footer > a > svg {
 }
 
 /* Responsiveness */
+
+/* Wider Desktops */
+
+@media screen and (min-width: 1600px) {
+
+    main {
+        max-width: 1500px;
+        margin: 60px auto;
+    }
+
+    .footer-container {
+        max-width: 1500px;
+        margin: 60px auto;
+    }
+}
 
 /* Tablets */
 @media screen and (max-width: 1302px) {
