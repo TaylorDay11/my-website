@@ -135,7 +135,7 @@ export default function VolunteerFinders() {
 
                     <h2>Sitemap</h2> 
 
-                    <img className="aligncenter" src={Sitemap} style={{backgroundColor: "#fff", padding: "10px"}} width="900px" />
+                    <img className="aligncenter" src={Sitemap} style={{backgroundColor: "#fff"}} width="900px" />
 
                     <h2>Website Wireframes</h2> 
 
@@ -157,7 +157,7 @@ export default function VolunteerFinders() {
 
                     <h2>Sticker Sheet</h2> 
 
-                    <img className="aligncenter" style={{backgroundColor: "#fff", padding: "10px"}} src={StickerSheet} width="900px" />
+                    <img className="aligncenter" style={{backgroundColor: "#fff"}} src={StickerSheet} width="900px" />
                     
                     <h2>Sources</h2> 
 
