@@ -468,18 +468,21 @@ footer > a > svg {
     color: #fff; 
 }
 
-.react-player {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.video-wrapper {
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
     position: relative;
-    padding-top: 56.25%;
-}
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: none;
+  }
 
 .arrow-link > svg {
     height: 1.2em;

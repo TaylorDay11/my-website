@@ -114,27 +114,25 @@ export default function CultivatedOasis() {
 
             <h3>Desktop</h3>
 
-             <div style={{position: "relative", paddingBottom: "56.25%", height: "0"}}>
-                <iframe src="https://www.loom.com/embed/f7e116c0028e45babc337165adcbe753" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}}></iframe>
-            </div>
-
-            <a target="_blank" className="button" href="https://xd.adobe.com/view/98428925-fd08-48d9-ab92-8f6f67f9f592-cd11/?fullscreen">Test Prototype</a>
+            <p>
+                <a target="_blank" className="button" href="https://www.loom.com/share/f7e116c0028e45babc337165adcbe753?sid=09bfe414-9a6d-496c-b742-7f2d53e16a1b">Watch Walkthrough</a>
+                <a target="_blank" className="button" href="https://xd.adobe.com/view/98428925-fd08-48d9-ab92-8f6f67f9f592-cd11/?fullscreen">Test Prototype</a>
+            </p>
 
             <h3>Mobile</h3>
 
-            <div style={{position: "relative", paddingBottom: "56.25%", height: "0"}}>
-                <iframe src="https://www.loom.com/embed/9e25309f557b4fd6b36801a52bc88268" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}}></iframe>
-            </div>
-
-            <a target="_blank" className="button" href="https://xd.adobe.com/view/d0f6aae9-00a0-4a37-995e-7657d1e0d574-85a5/?fullscreen">Test Prototype</a>
+            <p>
+                <a target="_blank" className="button" href="https://www.loom.com/share/9e25309f557b4fd6b36801a52bc88268?sid=95f15ebe-ef9b-46ee-9e7b-42a8dfab0ffb">Watch Walkthrough</a>
+                <a target="_blank" className="button" href="https://xd.adobe.com/view/d0f6aae9-00a0-4a37-995e-7657d1e0d574-85a5/?fullscreen">Test Prototype</a>
+            </p>
 
             <h2>Sources</h2> 
 
-                <p>Icons - <a className="source-link" target="_blank" href="https://thenounproject.com/">Noun Project</a></p>
+            <p>Icons - <a className="source-link" target="_blank" href="https://thenounproject.com/">Noun Project</a></p>
 
-                <p>Images - <a className="source-link" target="_blank" href="https://unsplash.com/">Unsplash</a></p>
+            <p>Images - <a className="source-link" target="_blank" href="https://unsplash.com/">Unsplash</a></p>
 
-                <ScrollOrNext />
+            <ScrollOrNext />
 
         </div>
     )

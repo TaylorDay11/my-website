@@ -1,4 +1,4 @@
-import ScrollOrNext from "../../components/ScrollOrNext"
+import ScrollOrNext from "../../components/ScrollOrNext.tsx"
 import HeroImage from "../../img/MonarcaCantina/HeroImage.png"
 import CreateGroup from "../../img/MonarcaCantina/CreateGroup.png"
 import GroupOrder from "../../img/MonarcaCantina/GroupOrder.png"
@@ -135,11 +135,8 @@ export default function MonarcaCantina() {
 
                     <h2>HiFi Prototype</h2>
 
-                    <div style={{position: "relative", paddingBottom: "56%", height: "0"}}>
-                        <iframe src="https://www.loom.com/embed/fd556a902f814b15a8fb8d31766f15c7" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%", border: "none"}} />
-                    </div>
-
                     <p>
+                        <a target="_blank" className="button" href="https://www.loom.com/share/fd556a902f814b15a8fb8d31766f15c7?sid=e2fb148b-7902-4a94-bb93-dc21da262775">Watch Walkthrough</a>
                         <a target="_blank" className="button" href="https://www.figma.com/proto/U7EarXZ5lYCbSjcKRYaVhJ/Mexican-Food-App?node-id=322%3A706&scaling=scale-down&starting-point-node-id=322%3A782">Test Prototype</a>
                     </p>
 

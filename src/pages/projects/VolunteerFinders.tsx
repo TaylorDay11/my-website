@@ -128,13 +128,10 @@ export default function VolunteerFinders() {
 
                     <h2>High Fidelity Prototype</h2> 
 
-                    <div className="video-wrapper">
-                    <iframe 
-                        src="https://www.loom.com/embed/9202912902af48c4a8f094d59ce4ef47" 
-                        className="react-player"/>
-                    </div>
-
-                    <a target="_blank" className="button" href="https://www.figma.com/proto/R8uqEjGkhYVWFYoJIZn7nl/Volunteer-App?node-id=149%3A812&scaling=scale-down&starting-point-node-id=152%3A1592">Test Prototype</a>
+                    <p>
+                        <a target="_blank" className="button" href="https://www.loom.com/share/9202912902af48c4a8f094d59ce4ef47">Watch Walkthrough</a>
+                        <a target="_blank" className="button" href="https://www.figma.com/proto/R8uqEjGkhYVWFYoJIZn7nl/Volunteer-App?node-id=149%3A812&scaling=scale-down&starting-point-node-id=152%3A1592">Test Prototype</a>
+                    </p>
 
                     <h2>Sitemap</h2> 
 
