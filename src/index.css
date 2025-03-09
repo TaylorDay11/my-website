@@ -231,7 +231,7 @@ footer > a > svg {
     font-size: 13px;
     margin-top: 0px;
     height: 68px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .tools {
