@@ -12,7 +12,7 @@ export default function Header() {
             <motion.div 
                 initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
-                transition={{ duration: 1, delay: .7, ease: "easeInOut" }}>
+                transition={{ duration: 1, delay: 1.2, ease: "easeInOut" }}>
             <div className="desktop-nav">
                 <nav>
                     <NavLink to="/">Home</NavLink>
